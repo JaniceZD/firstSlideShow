@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <title>My First Slide Show</title>
+  <style>
+    .images {
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.5s;
+    }
+    .window {
+      width: 400px;
+      overflow: hidden;
+    }
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <div class="images" id="images">
+      <img src="http://img.52z.com/upload/news/image/20180519/20180519051001_92779.jpg" alt="男孩1">
+      <img src="http://img.52z.com/upload/news/image/20180814/20180814023144_71109.jpg" alt="男孩2">
+      <img src="http://img.52z.com/upload/news/image/20180126/20180126061811_34082.jpg" alt="男孩3">
+      <img src="http://img.52z.com/upload/news/image/20180102/20180102122743_83130.jpg" alt="男孩4">
+    </div>
+  </div>
+  <span id="buttons">
+    <span>第1张</span>
+    <span>第2张</span>
+    <span>第3张</span>
+    <span>第4张</span>
+  </span>
+  <script src="./main.js"></script>
+</body>
+
+</html>
